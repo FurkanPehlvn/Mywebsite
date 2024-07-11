@@ -1,0 +1,41 @@
+.hero--section {
+  background-color: transparent;
+}
+.hero--content--left--title {
+  font-size: 3rem;
+  color: #cbf281;
+}
+.hero--section--content--box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero--content--right--img {
+  max-width: 350px;
+  max-height: 375px;
+}
+
+.hero--content--left--button {
+  background-color: white;
+  color: #4731d3;
+  border-radius: 6px;
+  padding: 12px 20px 12px 12px;
+}
+.hero--content--left--button-linkdin {
+  background-color: white;
+  color: #4731d3;
+  margin-left: 1rem;
+  border-radius: 6px;
+  padding: 12px 20px 12px 12px;
+}
+.hero--content--left--text {
+  color: white;
+  margin-top: 2rem;
+  font-size: 1.5rem;
+}
+
+.hero--content--left--button--box {
+  margin-top: 2rem;
+  margin-bottom: 0;
+}
