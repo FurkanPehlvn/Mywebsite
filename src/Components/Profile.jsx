@@ -12,14 +12,14 @@ function Profile() {
           <div className="profile-content-left">
             <h1>Basic Information</h1>
             <p>
-              <span>Doğum tarihi:</span> 24.03.1993
+              <span>Doğum tarihi:</span> 25.08.1993
             </p>
             <p>
-              <span>İkamet Şehri:</span> Giresun
+              <span>İkamet Şehri:</span> İstanbul
             </p>
             <p>
               <span>Eğitim Durumu: </span>
-              Eskişehir Osmangazi Ünv. Bilgisayar Müh. Lisans 2022
+              Yıldız Teknik Üniversitesi İşletme Lisans 2021
             </p>
             <p>
               <span>Tercih Ettiği Rol:</span> Frontend,UI

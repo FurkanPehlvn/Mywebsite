@@ -1,0 +1,8 @@
+.homescreen--box {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  overflow-x: hidden;
+  flex-grow: 1;
+  height: fit-content;
+}

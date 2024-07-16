@@ -4,24 +4,25 @@ import Skills from "../Skills";
 import Profile from "../Profile";
 import Projects from "../Projects";
 import Footer from "../Footer";
+import "./Homescreen.css";
 
 function Homescreen() {
   return (
     <div className="homescreen--box">
       <div className="homescreen--herobox">
-        <Hero></Hero>
+        <Hero />
       </div>
       <div className="homescreen--skillsbox">
-        <Skills></Skills>
+        <Skills />
       </div>
-      <div>
-        <Profile></Profile>
+      <div className="homescreen--profilebox">
+        <Profile />
       </div>
-      <div>
-        <Projects></Projects>
+      <div className="homescreen--projectsbox">
+        <Projects />
       </div>
-      <div>
-        <Footer></Footer>
+      <div className="homescreen--footerbox">
+        <Footer />
       </div>
     </div>
   );

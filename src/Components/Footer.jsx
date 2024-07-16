@@ -9,7 +9,7 @@ function Footer() {
         <p className="footer-text">
           Got a question or proposal, or just want to say hello? Go ahead.
         </p>
-        <p className="footer-email">hasancantural19@gmail.com</p>
+        <p className="footer-email">furkanpehlivan93@gmail.com</p>
         <div>Sosyalmedya simge</div>
       </div>
     </section>

@@ -1,26 +1,18 @@
 import React from "react";
 import { projectsData } from "../data/projectsIndex.js";
 import "./Projects.css";
+import Project from "./Project.jsx";
+
 function Projects() {
+  const filteredProjects = projectsData.slice(0, 2);
+
   return (
     <section className="projects--container">
       <div className="projects--container--box">
-        {" "}
         <div className="projects--container--title">
-          <h1>projects</h1>
+          <h1>Projects</h1>
         </div>
-        <div className="projects--container--card">
-          {projectsData.map((project) => (
-            <div className="projects--container--card--one" key={project.id}>
-              <img
-                className="projects--container--card--image"
-                src={project.src}
-              ></img>
-
-              <p>{project.title}</p>
-            </div>
-          ))}
-        </div>
+        <Project projectsData={filteredProjects} />
       </div>
     </section>
   );

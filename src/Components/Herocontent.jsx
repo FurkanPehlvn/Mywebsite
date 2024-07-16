@@ -9,7 +9,8 @@ function Herocontent() {
             I am a Frontend <br /> Developer...
           </h1>
           <p className="hero--content--left--text">
-            yazıyoz ediyoz yaptık bu işi{" "}
+            ...who likes to craft solid and scalable frontend products with
+            great user experiences.{" "}
           </p>
           <div className="hero--content--left--button--box">
             <button className="hero--content--left--button">Github</button>

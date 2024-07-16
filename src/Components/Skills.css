@@ -1,32 +1,51 @@
+.skills {
+  background-color: white;
+}
+
 .skills--container {
   display: flex;
-  flex-grow: initial;
-  flex-direction: row; /* Ensure the title and box are stacked */
-  align-items: center; /* Center horizontally */
-  margin: 0 auto; /* Center horizontally */
-  width: fit-content; /* Adjust the width to fit the content */
-  padding: 20px; /* Optional: Add padding for better appearance */
+  flex-direction: row;
+  align-items: center;
+  margin: 0 auto;
+  width: fit-content;
+  padding: 20px;
+}
+
+.skills.dark {
+  background-color: black;
+  color: white;
 }
 
 .skills--container--title {
   align-self: start;
   margin-right: 180px;
 }
+
 .skills--container--title h1 {
   color: black;
 }
+
 .skills--container--box {
   display: flex;
   flex-direction: column;
 }
+
 .skills--container--box--one {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  margin-right: 5rem;
 }
+
 .skills--container--box--one p {
   color: black;
-  align-self: center;
+  text-align: right; /* Align text to the right */
 }
+
+.skills.dark .skills--container--box--one p {
+  color: white;
+}
+
 .skills--container--box--image {
   max-width: 120px;
   max-height: 120px;

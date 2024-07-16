@@ -1,32 +1,18 @@
 .projects--container {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
   background-color: #cbf281;
 }
 
 .projects--container--box {
-  margin: 3rem; /* Added 'rem' unit */
+  width: 80%;
 }
 
-.projects--container--card {
-  background-color: aliceblue;
-  margin: 3rem;
-  gap: 3rem;
-  display: flex; /* Use flexbox for container */
-  flex-wrap: wrap; /* Wrap items */
-}
-
-.projects--container--card--one {
-  display: flex;
-  flex-direction: column; /* Set column layout */
-  align-items: center; /* Center items horizontally */
-  text-align: center; /* Center text */
-  padding: 1rem; /* Added padding for spacing */
-}
-
-.projects--container--card--image {
-  max-width: 100%; /* Added '%' unit */
-  max-height: 100%; /* Added '%' unit */
-}
-
-.projects--container p {
-  color: black;
+.projects--container--title h1 {
+  text-align: left;
+  margin-bottom: 20px;
+  color: #4731d3;
 }

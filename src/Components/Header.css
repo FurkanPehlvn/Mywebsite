@@ -3,3 +3,14 @@
   font-weight: bold;
   font-size: 3rem;
 }
+
+.header--section {
+  width: 100%; /* Ensure the section takes the full width */
+  text-align: left; /* Align text to the left */
+  display: flex; /* Use flexbox to align items */
+  justify-content: flex-start; /* Align items to the start (left) */
+}
+
+.header--section--box {
+  display: inline-block; /* Ensure the box only takes the needed width */
+}
