@@ -45,7 +45,7 @@
 
 .projects--container--buttons {
   display: flex;
-  gap: 1rem; /* Add spacing between the buttons */
+  gap: 1rem;
   margin-top: 1rem;
 }
 

@@ -29,19 +29,19 @@
   display: flex;
   width: 100%;
   position: absolute;
-  top: 0; /* Align to the top */
-  padding: 1rem; /* Add padding for better spacing */
+  top: 0;
+  padding: 1rem;
   gap: 1rem;
   justify-content: end;
   margin-right: 43%;
 }
 
 .theme--button {
-  margin-left: 1rem; /* Add margin to separate from language change text */
+  margin-left: 1rem;
 }
 
 .lang--change {
-  margin-right: 1rem; /* Add margin to separate from theme button */
+  margin-right: 1rem;
 }
 
 .lang--change--text--color {
@@ -52,7 +52,7 @@
 
 .hero--header {
   display: flex;
-  flex-direction: column; /* Change to column layout */
+  flex-direction: column;
   margin-top: 5rem;
   gap: 3rem;
   position: relative;
