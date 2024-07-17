@@ -31,9 +31,9 @@
   position: absolute;
   top: 0; /* Align to the top */
   padding: 1rem; /* Add padding for better spacing */
-  gap: 5rem;
+  gap: 1rem;
   justify-content: end;
-  margin-right: 35%;
+  margin-right: 43%;
 }
 
 .theme--button {
@@ -46,6 +46,8 @@
 
 .lang--change--text--color {
   color: #cbf281;
+  size: 15px;
+  font-family: "inter";
 }
 
 .hero--header {

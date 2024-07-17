@@ -6,13 +6,18 @@
   padding: 20px;
   background-color: #cbf281;
 }
-
+.dark.projects--container {
+  background-color: #1a210b;
+}
 .projects--container--box {
-  width: 80%;
+  margin: 5rem;
+
+  height: auto;
 }
 
 .projects--container--title h1 {
   text-align: left;
   margin-bottom: 20px;
   color: #4731d3;
+  font-size: 48px;
 }

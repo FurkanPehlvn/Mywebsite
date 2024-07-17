@@ -1,11 +1,19 @@
 import React from "react";
 import "./Project.css";
+import { useTheme } from "./context/Themecontext";
+import { useLanguage } from "./context/Langcontext.jsx";
 
 function Project({ projectsData }) {
+  const { theme } = useTheme();
+  const { language } = useLanguage();
+
   return (
     <div className="projects--container--card">
       {projectsData.map((project) => (
-        <div className="projects--container--card--one" key={project.id}>
+        <div
+          className={`projects--container--card--one ${theme}`}
+          key={project.id}
+        >
           <img
             className="projects--container--card--image"
             src={project.src}
@@ -21,7 +29,7 @@ function Project({ projectsData }) {
                 rel="noopener noreferrer"
                 className="projects--container--button"
               >
-                View Site
+                {language === "EN" ? "View Site" : "Siteyi Görüntüle"}
               </a>
               <a
                 href={project.github}
@@ -29,7 +37,7 @@ function Project({ projectsData }) {
                 rel="noopener noreferrer"
                 className="projects--container--button"
               >
-                GitHub
+                {language === "EN" ? "GitHub" : "GitHub"}
               </a>
             </div>
           </div>

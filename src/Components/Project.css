@@ -5,6 +5,9 @@
   gap: 20px;
 }
 
+.dark.projects--container--card--one {
+  background-color: #2b2727;
+}
 .projects--container--card--one {
   display: flex;
   flex-direction: row;
@@ -28,11 +31,16 @@
   font-weight: bold;
   color: black;
   margin-top: 2rem;
+  font-size: 16px;
+}
+.dark-theme.projects--container--card--one p {
+  color: white;
 }
 
 .projects--container--card--one h1 {
   margin-top: 4rem;
   color: #4731d3;
+  font-size: 32px;
 }
 
 .projects--container--buttons {
@@ -49,8 +57,12 @@
   text-decoration: none;
   border-radius: 5px;
   transition: background-color 0.3s ease;
+  font-size: 16px;
 }
 
+.dark-theme.projects--container--link {
+  color: #cbf281;
+}
 .projects--container--link:hover {
   background-color: #3626a7;
 }

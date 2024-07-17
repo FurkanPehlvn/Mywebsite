@@ -11,10 +11,30 @@
 .footer-container {
   display: flex;
   justify-content: center;
+  background-color: #f9f9f9;
+  padding: 2rem 0;
 }
 .footer-content {
   text-align: center;
   width: 25%;
   margin-top: 5%;
   margin-bottom: 5%;
+}
+.footer-container.dark {
+  background-color: #252128;
+  color: #ffffff;
+}
+.footer-container.dark.footer-title,
+.footer-container.dark.footer-email {
+  color: #ffd700;
+}
+.footer-container.dark.footer-text {
+  color: #cfcfcf;
+}
+.social-media-icons {
+  margin-top: 1rem;
+}
+
+.icons {
+  font-size: 5rem;
 }
