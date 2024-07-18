@@ -23,7 +23,7 @@ function Herocontent() {
           </p>
           <div className="hero--content--left--button--box">
             <a
-              href="https://github.com/yourgithub"
+              href="https://github.com/FurkanPehlvn"
               target="_blank"
               rel="noopener noreferrer"
               className="hero--content--left--button"
@@ -31,7 +31,7 @@ function Herocontent() {
               <FaGithub /> {language === "EN" ? "Github" : "Github"}
             </a>
             <a
-              href="https://linkedin.com/in/yourlinkedin"
+              href="www.linkedin.com/in/furkan-pehlivan-897750226"
               target="_blank"
               rel="noopener noreferrer"
               className="hero--content--left--button-linkdin"
