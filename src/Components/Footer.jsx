@@ -24,11 +24,30 @@ function Footer() {
         </p>
         <p className="footer-email">furkanpehlivan93@gmail.com</p>
         <div className="social-media-icons">
-          <CiTwitter className="icons" />
-          <PiCubeTransparentBold className="icons" />
-
-          <MdAlternateEmail className="icons" />
-          <FaInstagram className="icons" />
+          <a
+            href="https://twitter.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <CiTwitter className="icons" />
+          </a>
+          <a
+            href="https://codepen.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <PiCubeTransparentBold className="icons" />
+          </a>
+          <a href="https://gmail.com" target="_blank" rel="noopener noreferrer">
+            <MdAlternateEmail className="icons" />
+          </a>
+          <a
+            href="https://instagram.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaInstagram className="icons" />
+          </a>
         </div>
       </div>
     </section>
