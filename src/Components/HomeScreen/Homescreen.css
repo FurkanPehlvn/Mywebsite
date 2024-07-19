@@ -2,7 +2,37 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  overflow-x: hidden;
+
   flex-grow: 1;
   height: fit-content;
+}
+
+@media (max-width: 768px) {
+  .homescreen--herobox,
+  .homescreen--skillsbox,
+  .homescreen--profilebox,
+  .homescreen--projectsbox,
+  .homescreen--footerbox {
+    padding: 10px;
+  }
+
+  .homescreen--box {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .homescreen--herobox,
+  .homescreen--skillsbox,
+  .homescreen--profilebox,
+  .homescreen--projectsbox,
+  .homescreen--footerbox {
+    padding: 5px;
+  }
+
+  .homescreen--box {
+    flex-direction: column;
+    align-items: center;
+  }
 }
